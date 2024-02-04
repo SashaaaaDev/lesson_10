@@ -29,10 +29,12 @@ function weekFn(cond) {
 
   return str;
 }
-module.exports = weekFn
+
 console.log(weekFn(1)); // 'Понедельник'
 console.log(weekFn(3)); // 'Среда'
 console.log(weekFn(7)); // 'Воскресенье'
 console.log(weekFn(9)); // null
 console.log(weekFn(1.5)); // null
 console.log(weekFn('2')); // null
+
+module.exports = weekFn
